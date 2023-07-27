@@ -1,0 +1,22 @@
+.header-main-div {
+  width: 100%;
+  background-color: #183153;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  padding: 0 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.header-main-div p {
+  font-weight: 900;
+  font-size: 25px;
+  margin: 3% 0px;
+}
+.header-main-div li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.header-main-div a {
+  color: inherit;
+}

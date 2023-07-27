@@ -1,0 +1,51 @@
+body {
+  background-image: url("/images/656685.jpg");
+  background-size: cover;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+.layout-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 83.5vh;
+}
+
+#main-div {
+  width: 40%;
+  height: 58vh;
+  background-image: linear-gradient(to right, #F1FFFF, #FEFBF1);
+  border: 1px solid #EFEFEF;
+}
+#main-div h1 {
+  text-align: center;
+}
+#main-div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+#main-div label {
+  margin-bottom: 1.5%;
+  font-size: 20px;
+}
+#main-div select {
+  width: 95%;
+  height: 2.2em;
+  font-size: 18px;
+  padding-left: 1%;
+  border: 2px solid #EFEFEF;
+  margin-bottom: 5%;
+}
+#main-div button {
+  width: 20%;
+  height: 2em;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #E8576B;
+  border: none;
+  color: white;
+}

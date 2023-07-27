@@ -1,0 +1,62 @@
+body {
+    background-image: url('/images/656685.jpg');
+    background-size: cover;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+.layout-main
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main-div{
+    margin-top: 2%;
+    width: 90%;
+    background-image: linear-gradient(to right,#F1FFFF, #FEFBF1);
+    border: 1px solid #EFEFEF;
+    padding-bottom: 1%;
+
+    #headings
+    {
+        width: 100%;
+        height: 3vh;
+        display: flex;
+        p{
+            margin: 0;
+            margin-left: 3%;
+            margin-right: 11%;
+
+        }
+    }
+
+    h1{
+        text-align: center;
+    }
+    form{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1%;
+    }
+    input{
+        width: 15%;
+    }
+
+    button {
+        width: 8%;
+        height: 2em;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: #E8576B;
+        border: none;
+        color: white;
+    }
+   
+    a{
+        color: white;
+    }
+
+}
